@@ -7,6 +7,7 @@ int main()
   int age = 17;
   int grade = 11;
   bool hasPet = true;
-  std::cout << age << std::/n << grade << std::/endl << hasPet;
+  std::cout << age << "\n" << grade << std::endl << hasPet;
+  std::cout << "\n" << "I am a(n) " << grade << "th grader." << "\n";
   return 0;
 }
